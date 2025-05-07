@@ -3,33 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Edurald Consult</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Edurald Consult - Export Experts</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Edurald Consult</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
-    </nav>
+    <div class="container">
+      <h1>Edurald Consult</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle">Toggle Theme</button>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <h2>Your Trusted Export Partner</h2>
-      <p>We specialize in sourcing and exporting high-quality goods from Nigeria to the global market.</p>
-    </section>
+  <section class="hero">
+    <div class="container">
+      <h2>Your Gateway to Global Trade</h2>
+      <p>We specialize in seamless export services for agricultural and manufactured goods across borders.</p>
+    </div>
+  </section>
 
-    <section class="about">
-      <h3>About Us</h3>
-      <p>Edurald Consult is committed to excellence in trade and export consultancy. We support our clients with end-to-end logistics, documentation, and compliance.</p>
-    </section>
-  </main>
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Edurald Consult is a leading export company in Nigeria, committed to providing professional, timely, and cost-effective export solutions to clients worldwide.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Export of Agricultural Produce</li>
+        <li>Documentation & Logistics</li>
+        <li>Customs Clearance</li>
+        <li>International Trade Advisory</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: info@eduraldconsult.com</p>
+      <p>Phone: +234 812 932 1128</p>
+      <p>Location: Lagos, Nigeria</p>
+    </div>
+  </section>
 
   <footer>
-    <p>Contact us: <a href="mailto:info@eduraldconsult.com">info@eduraldconsult.com</a> | +234-812-932-1128</p>
-    <p>&copy; 2025 Edurald Consult</p>
+    <div class="container">
+      <p>&copy; 2025 Edurald Consult. All rights reserved.</p>
+    </div>
   </footer>
+
+  <script>
+    const toggleBtn = document.getElementById("theme-toggle");
+    toggleBtn.addEventListener("click", () => {
+      document.body.classList.toggle("dark-theme");
+    });
+  </script>
 </body>
 </html>
