@@ -3,69 +3,111 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Edurald Consult - Export Experts</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <title>Edurald Consult - Exporting Excellence</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <a href="services.html">Our Services</a>
+  <link rel="stylesheet" href="style.css">
+
+
 </head>
-<body>
-  <header>
-    <div class="container">
-      <h1>Edurald Consult</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-        <button id="theme-toggle">Toggle Theme</button>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-green-900 text-white py-4 shadow">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <h1 class="text-2xl font-bold">Edurald Consult</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#services" class="hover:underline">Services</a>
+        <a href="#gallery" class="hover:underline">Products</a>
+        <a href="#contact" class="hover:underline">Contact</a>
       </nav>
     </div>
+
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <h2>Your Gateway to Global Trade</h2>
-      <p>We specialize in seamless export services for agricultural and manufactured goods across borders.</p>
+  <!-- Hero Section -->
+  <section class="bg-white text-center py-16">
+    <h2 class="text-4xl font-bold mb-4">Transparent Trade. Trusted Exports.</h2>
+    <p class="text-lg mb-6">Driving export excellence from Nigeria to the world.</p>
+    <a href="#contact" class="bg-green-700 text-white px-6 py-3 rounded hover:bg-green-800">Contact Us</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-4">About Edurald</h3>
+      <p>Edurald Consult was founded to bridge the gap between local producers and global demand. Our mission is rooted in integrity, transparency, and impact.</p>
     </div>
   </section>
 
-  <section id="about" class="section">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>Edurald Consult is a leading export company in Nigeria, committed to providing professional, timely, and cost-effective export solutions to clients worldwide.</p>
+  <!-- Services -->
+  <section id="services" class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-8">What We Do</h3>
+      <div class="grid md:grid-cols-3 gap-6 text-left">
+        <div>
+          <h4 class="font-semibold text-lg">Sourcing</h4>
+          <p>We work directly with trusted farmers and producers.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg">Processing</h4>
+          <p>We ensure post-harvest handling meets global standards.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg">Export Compliance</h4>
+          <p>We manage documentation and customs to ensure smooth delivery.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="services" class="section">
-    <div class="container">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Export of Agricultural Produce</li>
-        <li>Documentation & Logistics</li>
-        <li>Customs Clearance</li>
-        <li>International Trade Advisory</li>
-      </ul>
+  <!-- Products Gallery -->
+  <section id="gallery" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-8">Our Export Products</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 shadow rounded">
+          <img src="https://via.placeholder.com/150" alt="Cocoa" class="mb-2 mx-auto" />
+          <p>Cocoa Beans</p>
+        </div>
+        <div class="bg-white p-4 shadow rounded">
+          <img src="https://via.placeholder.com/150" alt="Cashew" class="mb-2 mx-auto" />
+          <p>Cashew Nuts</p>
+        </div>
+        <div class="bg-white p-4 shadow rounded">
+          <img src="https://via.placeholder.com/150" alt="Palm Kernel" class="mb-2 mx-auto" />
+          <p>Palm Kernel</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>Email: info@eduraldconsult.com</p>
-      <p>Phone: +234 812 932 1128</p>
-      <p>Location: Lagos, Nigeria</p>
-    </div>
+  <!-- Credibility Section -->
+  <section class="py-16 bg-white text-center">
+    <h3 class="text-2xl font-bold mb-4">Trusted & Certified</h3>
+    <p class="mb-6">Registered with NEPC | Export License #123456 | Proud Nigerian Exporter</p>
+    <div class="text-sm italic">“Working with Edurald has improved our sourcing chain significantly.” - AgroPartner Ltd.</div>
   </section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Edurald Consult. All rights reserved.</p>
-    </div>
+  <!-- Vision & Mission -->
+  <section class="py-16 bg-gray-100 text-center">
+    <h3 class="text-2xl font-bold mb-4">Our Vision & Mission</h3>
+    <p>To be the most reliable export company in West Africa—driven by quality, consistency, and partnership.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-white text-center">
+    <h3 class="text-2xl font-bold mb-6">Contact Us</h3>
+    <p>Email: <a href="mailto:info@edurald.com" class="text-green-800 underline">info@edurald.com</a></p>
+    <p>Phone: <a href="tel:+2348012345678" class="text-green-800 underline">+234 801 234 5678</a></p>
+    <p>WhatsApp: <a href="https://wa.me/2348012345678" class="text-green-800 underline">Chat Now</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-900 text-white text-center py-6 text-sm">
+    <p>&copy; 2025 Edurald Consult. All rights reserved.</p>
   </footer>
 
-  <script>
-    const toggleBtn = document.getElementById("theme-toggle");
-    toggleBtn.addEventListener("click", () => {
-      document.body.classList.toggle("dark-theme");
-    });
-  </script>
 </body>
 </html>
